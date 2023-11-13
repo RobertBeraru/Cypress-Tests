@@ -1,0 +1,28 @@
+{
+  "name": "qa-practice-cypress",
+  "version": "1.0.0",
+  "description": "This repository contains front end automated tests using Cypress.",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "npx cypress open",
+    "cy:chrome:headed": "npx cypress run --browser chrome --headed",
+    "cy:chrome": "npx cypress run --browser chrome "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RobertBeraru/Cypress-Tests.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RobertBeraru/Cypress-Tests/issues"
+  },
+  "homepage": "https://github.com/RobertBeraru/Cypress-Tests#readme",
+  "devDependencies": {
+    "cypress": "^13.4.0"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^8.2.0"
+  }
+}
