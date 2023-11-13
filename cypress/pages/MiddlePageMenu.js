@@ -26,6 +26,9 @@ class MiddlePageMenu {
   getInterceptAPIRequest_CREATEPostBtn() {
     return cy.get(".btn.btn-primary.mb-2");
   }
+  getInterceptAPIRequest_PostTitle(){
+    return cy.get("#postTitleInput")
+  }
   getVisualTesting_GIFPage() {
     return cy.get("div[id='content'] h2");
   }
