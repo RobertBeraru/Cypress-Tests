@@ -1,0 +1,16 @@
+{
+  "name": "qa-practice-pom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "npx cypress open",
+    "cy:chrome:headed": "npx cypress run --browser chrome --headed",
+    "cy:chrome": "npx cypress run --browser chrome "
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.4.0"
+  }
+}
